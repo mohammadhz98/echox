@@ -6,7 +6,7 @@ description = "IP address handling in Echo"
   parent = "guide"
 +++
 
-IP address plays fundamental role in HTTP; it's used for access control, auditting, geo-based access analysis and more.
+IP address plays fundamental role in HTTP; it's used for access control, auditing, geo-based access analysis and more.
 Echo provides handy method [`Context#RealIP()`](https://godoc.org/github.com/labstack/echo#Context) for that.
 
 However, it is not trivial to retrieve the _real_ IP address from requests especially when you put L7 proxies before the application.

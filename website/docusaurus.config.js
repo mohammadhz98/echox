@@ -50,6 +50,46 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
+    ]
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/docs/start-server',
+            from: '/guide/http_server'
+          },
+          {
+            to: '/docs/cookbook/subdomain',
+            from: '/cookbook/subdomains'
+          },
+          {
+            to: '/docs/cookbook/timeout',
+            from: '/cookbook/timeouts'
+          }
+        ],
+        createRedirects(existingPath) {
+          if (existingPath.includes('/docs/middleware')) {
+            return [
+              existingPath.replace('/docs/middleware', '/middleware'),
+            ];
+          }
+          if (existingPath.includes('/docs/cookbook')) {
+            return [
+              existingPath.replace('/docs/cookbook', '/cookbook'),
+            ];
+          }
+          if (existingPath.includes('/docs')) {
+            return [
+              existingPath.replace('/docs', '/guide'),
+            ];
+          }
+          return undefined; // Return a falsy value: no redirect created
+        },
+      },
     ],
   ],
 

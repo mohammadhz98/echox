@@ -6,5 +6,6 @@
 
 ### Running Website Locally
 
-- If you don't have hugo, get it [`hugo`](https://gohugo.io).
-- From terminal, go to website folder and run `hugo serve`.
+- Ensure that you have Node.js installed on your computer. If you don't have it, download and install it from the official Node.js website (https://nodejs.org).
+- Inside the "website" folder, install the required dependencies by running the following command `npm install`.
+- Run the website locally by running the following command `npm start`.

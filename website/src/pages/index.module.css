@@ -22,7 +22,9 @@
   justify-content: center;
 }
 
-.heroTerminal {
-  width: 50%;
-  height: auto;
+@media screen and (min-width: 997px) {
+  .heroTerminal {
+    width: 50%;
+    height: auto;
+  }
 }

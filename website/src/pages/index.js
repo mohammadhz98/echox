@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
@@ -24,6 +25,13 @@ function HomepageHeader() {
           src={require('../../static/img/terminal.png').default}
           alt="Terminal"
         />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/quick-start">
+            Get Started
+          </Link>
+        </div>
       </div>
     </header>
   );

@@ -17,6 +17,11 @@ const SponsorList = [
     name: 'DoiT',
     logo: require('@site/static/img/doit-logo.png').default,
     link: 'https://doit.com'
+  },
+  {
+    name: 'Become a sponsor!',
+    logo: require('@site/static/img/donation.png').default,
+    link: 'https://github.com/sponsors/labstack'
   }
 ];
 
@@ -25,7 +30,7 @@ function Sponsor({name, logo, link}) {
     <div className={clsx('col col--2')}>
       <div className="text--left padding-horiz--md">
         <h4>{name}</h4>
-        <a href="https://shiguredo.jp" target="_blank">
+        <a href={link} target="_blank">
           <img className={styles.sponsorLogo} src={logo} alt={name} />
         </a>
       </div>

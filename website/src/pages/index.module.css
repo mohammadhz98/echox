@@ -21,3 +21,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.heroTerminal {
+  width: 50%;
+  height: auto;
+}

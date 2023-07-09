@@ -10,3 +10,11 @@
   width: 32px;
   margin-right: 1rem;
 }
+
+[data-theme='light'] .featureSvg {
+  fill: #000000;
+}
+
+[data-theme='dark'] .featureSvg {
+  fill: #FFFFFF;
+}

@@ -7,6 +7,11 @@ import HomepageSponsors from '@site/src/components/HomepageSponsors';
 
 import styles from './index.module.css';
 
+const description = `Echo is a high-performance web framework for building robust and scalable applications in Go.
+  With its minimalist design and powerful features, Echo enables developers to create efficient APIs and web
+  applications with ease. Harness the speed, flexibility, and simplicity of Echo to accelerate your Go development
+  projects.`;
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -28,8 +33,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - ${siteConfig.tagline}`}
+      description={description}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

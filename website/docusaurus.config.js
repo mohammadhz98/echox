@@ -151,9 +151,6 @@ const config = {
   
         indexName: 'labstack_echo',
   
-        // Optional: see doc section below
-        contextualSearch: true,
-  
         // Optional: Algolia search parameters
         searchParameters: {},
   

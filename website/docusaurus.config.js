@@ -143,19 +143,11 @@ const config = {
         showRunmeLink: false
       },
       algolia: {
-        // The application ID provided by Algolia
         appId: '4AFTIR2HGK',
-  
-        // Public API key: it is safe to commit it
         apiKey: 'b92d819e8e37b59dc5d564d763542682',
-  
         indexName: 'labstack_echo',
-  
-        // Optional: Algolia search parameters
-        searchParameters: {},
-  
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
+        contextualSearch: false,
+        facetFilters: []
       }
     }),
 };

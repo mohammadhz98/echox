@@ -116,7 +116,7 @@ on request payload.
 
 `Echo#Binder` can be used to register a custom binder for binding request payload.
 
-[Learn more](./request.md/#custom-binder)
+[Learn more](./binding#custom-binding)
 
 ## Custom JSON Serializer
 

@@ -8,7 +8,9 @@ const FeatureList = [
     Svg: require('@site/static/img/0568-rocket.svg').default,
     description: (
       <>
-        Highly optimized HTTP router with zero dynamic memory allocation which smartly prioritizes routes.
+        Echo boasts a highly optimized HTTP router that operates without dynamic memory allocation.
+        This router intelligently prioritizes routes for efficient routing and processing of incoming HTTP requests.
+        The absence of dynamic memory allocation contributes to better performance and resource utilization.
       </>
     ),
   },
@@ -17,7 +19,9 @@ const FeatureList = [
     Svg: require('@site/static/img/0075-cloud.svg').default,
     description: (
       <>
-        Build robust and scalable RESTful API, easily organized into groups.
+        Echo framework empowers developers to build robust and scalable RESTful APIs effortlessly.
+        It facilitates the organization of endpoints into logical groups, simplifying the management of complex APIs.
+        This scalability ensures that your application can grow and handle increased traffic or functionality seamlessly.
       </>
     ),
   },
@@ -26,16 +30,18 @@ const FeatureList = [
     Svg: require('@site/static/img/0221-license2.svg').default,
     description: (
       <>
-        Automatically install TLS certificates from Let's Encrypt.
+        Echo streamlines the process of enabling secure communication by automatically handling TLS certificate installation from Let's Encrypt.
+        This automation simplifies the setup of secure connections, allowing you to secure your application with minimal effort.
       </>
     ),
   },
   {
-    title: 'HTTP/2',
+    title: 'HTTP/2 Support',
     Svg: require('@site/static/img/0567-speed-fast.svg').default,
     description: (
       <>
-        HTTP/2 support improves speed and provides better user experience.
+        Echo embraces the HTTP/2 protocol, which enhances the speed and responsiveness of your web applications.
+        HTTP/2 is designed to provide a faster and more efficient user experience by optimizing the way data is transmitted between the server and the client.
       </>
     ),
   },
@@ -44,7 +50,9 @@ const FeatureList = [
     Svg: require('@site/static/img/0893-funnel.svg').default,
     description: (
       <>
-        Many built-in middleware to use, or define your own. Middleware can be set at root, group or route level.
+        Echo offers a rich collection of built-in middleware functions that can be utilized to enhance your application's functionality and security.
+        You can apply middleware at different levels: globally at the root level, within specific route groups, or on individual routes.
+        Additionally, Echo allows developers to define their custom middleware to tailor the application's behavior to specific needs.
       </>
     ),
   },
@@ -53,7 +61,8 @@ const FeatureList = [
     Svg: require('@site/static/img/0101-database-upload.svg').default,
     description: (
       <>
-        Data binding for HTTP request payload, including JSON, XML or form-data.
+        Echo simplifies the process of binding HTTP request payloads, including JSON, XML, or form-data.
+        This feature makes it easy to extract and work with data sent in the request body, enabling seamless integration with your application logic.
       </>
     ),
   },
@@ -62,7 +71,9 @@ const FeatureList = [
     Svg: require('@site/static/img/0102-database-download.svg').default,
     description: (
       <>
-        API to send variety of HTTP response, including JSON, XML, HTML, File, Attachment, Inline, Stream or Blob.
+        Echo provides a versatile API for sending various types of HTTP responses.
+        You can easily send responses in formats such as JSON, XML, HTML, files, attachments, inline content, streams, or blobs.
+        This flexibility ensures that your application can generate and serve different types of content to clients based on their needs.
       </>
     ),
   },
@@ -71,7 +82,9 @@ const FeatureList = [
     Svg: require('@site/static/img/0780-code.svg').default,
     description: (
       <>
-        Template rendering using any template engine.
+        Echo supports template rendering using any template engine of your choice.
+        This feature allows you to generate dynamic HTML content for rendering web pages, email templates, or other view-based responses.
+        You have the freedom to select the template engine that best suits your project.
       </>
     ),
   },
@@ -80,7 +93,10 @@ const FeatureList = [
     Svg: require('@site/static/img/0243-equalizer.svg').default,
     description: (
       <>
-        Customized central HTTP error handling. Easily extendable API.
+        Echo offers extensibility at various levels.
+        You can customize centralized HTTP error handling to gracefully manage errors and exceptions.
+        Moreover, the framework provides an easily extendable API, allowing you to create custom middleware, plugins,
+        or components to tailor Echo to your specific requirements and integrate third-party functionality seamlessly.
       </>
     ),
   }

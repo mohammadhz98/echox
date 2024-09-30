@@ -76,6 +76,10 @@ a custom logger using `Echo#Logger`.
 
 `Echo#HideBanner` can be used to hide the startup banner.
 
+## Listener Port
+
+`Echo#HidePort` can be used to hide the listener port message.
+
 ## Custom Listener
 
 `Echo#*Listener` can be used to run a custom listener.
@@ -116,7 +120,7 @@ on request payload.
 
 `Echo#Binder` can be used to register a custom binder for binding request payload.
 
-[Learn more](./request.md/#custom-binder)
+[Learn more](./binding#custom-binding)
 
 ## Custom JSON Serializer
 
